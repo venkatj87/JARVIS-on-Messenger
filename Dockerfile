@@ -13,4 +13,4 @@ RUN pip install -r requirements.txt
 COPY ./ ./
 
 # Setup the command to run when the container starts
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+# CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
